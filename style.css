@@ -1,0 +1,67 @@
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Sorteringsknapper */
+.sortering {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    margin: 2px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+/* Formular */
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Indkøbsliste */
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.totalPris {
+    margin-top: 20px;
+    padding: 12px;
+    font-weight: bold;
+    text-align: right;
+    border-top: 2px solid #ddd;
+}

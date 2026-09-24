@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opgave A</title>
+    <script src="opgave2.js" defer ></script>
+    <link rel ="stylesheet" href ="style.css">
+</head>
+<body>
+    <main>
+        <div>
+            <button onclick="sort('varer', 'navn')">
+                Sorter efter Navn
+            </button>
+
+            <button onclick="sort('varer', 'pris')">
+                Sorter efter pris
+            </button>
+
+            <button onclick="sort('varer', 'antal')">
+                Sorter efter antal
+            </button>
+        </div>
+       
+    <section>
+        <dic>
+            <form id = "vareInput">
+            <input id ="navn" type = "text" placeholder = "indsæt navnet på en vare">
+            <input id="pris" type="number" placeholder="Indsæt pris for vare">
+            <input id="antal" type="number" placeholder="antal af vare">
+            <button type="submit"> Tilføj vare</button>
+        </form>
+        </dic>
+    </section>
+        
+    <section>
+        <div>
+            <ul id ="indkøbsliste"></ul>
+        </div>
+    </section>
+        
+    </main>
+</body>
+</html>
