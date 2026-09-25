@@ -85,7 +85,7 @@ function showIndkøbsliste(){
     for(let i = 0; i <varer.length; i++) {
         const li = document.createElement("li");
 
-        li.textContent ="vare: " + varer[i].navn + " antal " + varer[i].antal + "  " + varer[i].pris + " kr"
+        li.textContent ="vare: " + varer[i].navn + " antal " + varer[i].antal + "  " + "Pris: " + varer[i].pris + " kr"
 
         //Knap som kalder på addVare funktion
         const plusKnap = document.createElement("button");
