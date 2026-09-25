@@ -70,9 +70,11 @@ function addVare(i){
 }
 //tager vare index og trækker en fra antal parameteren og opdaterer indkøbdslisten
 function fjernVare(i){
-    if(varer[i].antal > 0) {
+    if(varer[i].antal > 1) {
         varer[i].antal--;
-    };
+    } else {
+        varer.splice(i, 1);
+    }
     showIndkøbsliste();
 }
 
